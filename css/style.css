@@ -97,6 +97,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
+  color: #2e2f42;
 }
 
 .benefits-list-text {
@@ -119,6 +120,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .team-list-item {
@@ -131,6 +133,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
 }
 
 .team-list-text {
