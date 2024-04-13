@@ -15,8 +15,8 @@ button {
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
-  background-color: #fafafa;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 /* ============ HEADER STYLES ============ */
@@ -24,12 +24,14 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: left;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 .text-color {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .menu-link {
@@ -58,23 +60,27 @@ body {
   color: #404bbf;
 }
 
+.address {
+  font-style: normal;
+}
+
 /* ============ HERO STYLES ============ */
+.hero {
+  background-color: #2e2f42;
+}
 .main-title {
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #ffffff;
 }
 
 .order-button {
-  width: 169px;
-  height: 56px;
-  top: 428px;
-  left: 636px;
-  padding: 16px 32px 16px 32px;
-  gap: 10px;
-  border-radius: 4px 0px 0px 0px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   background-color: #4d5ae5;
   color: #ffffff;
 }
@@ -99,9 +105,26 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
+  color: #434455;
 }
 
 /* ============ TEAM STYLES ============ */
+.team {
+  background-color: #f4f4fd;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.team-list-item {
+  background-color: #ffffff;
+}
+
 .team-list-title {
   font-size: 20px;
   font-weight: 500;
@@ -116,16 +139,48 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #434455;
+}
+
+/* ============ PORTFOLIO STYLES ============ */
+.portfolio {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.portfolio-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.portfolio-list-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* ============ FOOTER STYLES ============ */
+.page-footer {
+  background-color: #2e2f42;
+}
+
 .footer-logo {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: left;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .footer-text {
@@ -134,4 +189,9 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
+  color: #f4f4fd;
+}
+
+.text-color-footer {
+  color: #f4f4fd;
 }
