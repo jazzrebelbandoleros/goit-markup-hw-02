@@ -1,0 +1,60 @@
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #2E2F42;
+    background-color: #fafafa;
+}
+
+.page-header {
+
+}
+
+.page-nav {
+
+}
+
+.page-logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+.text-color {
+    color: #4D5AE5;
+}
+
+.menu {
+
+}
+
+.menu-item {
+
+}
+
+.menu-link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2E2F42;
+}
+.menu-link:hover,
+.menu-link:focus {
+    color: #404BBF;;
+}
